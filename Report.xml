@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="Unit Test Report" tests="2" errors="1" failures="0" time="0:00:10.207000"><testcase classname="SmokeTests" name="test_100_Start_Browser" time="6.934"><system-out><![CDATA[
+XXXXXXXXX Test 1111 started XXXXXXXXX
+]]></system-out><success type="test_100_Start_Browser"><![CDATA[test_100_Start_Browser (__main__.SmokeTests)]]></success></testcase><testcase classname="SmokeTests" name="test_200_Check_Stop_Button" time="3.266"><system-out><![CDATA[
+XXXXXXXXX Test 222 started XXXXXXXXX
+]]></system-out><error type="org.sikuli.script.FindFailed"><![CDATA[Traceback (most recent call last):
+  File "C:\Users\Precision M2800\AppData\Roaming\Sikulix\Lib\unittest\case.py", line 332, in run
+    testMethod()
+  File "C:\mini-framework\Tests\smoke_tests.sikuli\smoke_tests.py", line 14, in test_200_Check_Stop_Button
+    click(SamplePage_UI.button_Reload)
+FindFailed: FindFailed: button_Reload.png: (113x44) in S(0)[0,0 1366x768] E:Y, T:3.0
+  Line 2761, in file Region.java
+]]></error></testcase><system-out><![CDATA[]]></system-out><system-err><![CDATA[]]></system-err></testsuite>
